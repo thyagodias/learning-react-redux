@@ -2,8 +2,8 @@ const INITIAL_STATE = {
   items: [],
 };
 
-function cart() {
+const cart = (state, action) => {
   return INITIAL_STATE;
-}
+};
 
 export default cart;
